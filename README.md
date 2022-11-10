@@ -78,19 +78,19 @@ https://github.com/rmsouza01/MC-MRI-Rec
 
 笛卡尔：
 
-<img src="dikaer.png" alt="075ed536c4530ffc100e91f81f2203b" style="zoom:50%;" />
+<img src="img/dikaer.png" alt="075ed536c4530ffc100e91f81f2203b" style="zoom:50%;" />
 
 径向采样：(256x256)的mask：v100:/home/data/ljh/Brain_MRI/Brain_MRI/dataset/radial：使用mask时需要shift，即四周变中心，中心变四周，具体见v100：/home/data/ljh/Brain_MRI/Brain_MRI/dataset/Brain_single_dc_radial.py
 
-<img src="radial.png" alt="c66d9343016b09ffff0bc477bc11325" style="zoom:25%;" />
+<img src="img/radial.png" alt="c66d9343016b09ffff0bc477bc11325" style="zoom:25%;" />
 
 螺线采样：（256x256）mask：v100:/home/data/ljh/Brain_MRI/Brain_MRI/dataset/spiral；**spiral_10指采样10%**；使用mask时需要shif
 
-<img src="spiral.png" alt="f5cb24d0d8aba5281aaad1b136eba3b" style="zoom:25%;" />
+<img src="img/spiral.png" alt="f5cb24d0d8aba5281aaad1b136eba3b" style="zoom:25%;" />
 
 泊松采样: mask：v100:/home/data/ljh/fastmri/code/dataset/poisson_sampling
 
-<img src="bosong.png" alt="53fbe35c126ac78f4eea5f4041faae7" style="zoom:50%;" />
+<img src="img/bosong.png" alt="53fbe35c126ac78f4eea5f4041faae7" style="zoom:50%;" />
 
 
 
