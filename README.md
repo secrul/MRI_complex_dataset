@@ -18,10 +18,10 @@ https://fastmri.med.nyu.edu/
 
 数据处理：v100:/home/data/ljh/fastmri/MRI/dataset/knee_multi.py
 
-.h5文件 ；15个线圈；训练数据集：973个文件 验证数据集：197文件
+.h5文件 ；15个线圈；训练数据集：973个文件 验证数据集：197个文件
 
 ```python
-hfile = h5py.File(file_name, 'r')#<KeysViewHDF5 ['ismrmrd_header', 'kspace', 'reconstruction_rss']>
+hfile = h5py.File(file_name, 'r')#三个字典对儿<KeysViewHDF5 ['ismrmrd_header', 'kspace', 'reconstruction_rss']>
 kspace_data = hfile['kspace'][()]#
 print(kspace_data.shape)#(33, 15, 640, 372)
 kspace_data = hfile['reconstruction_rss'][()]#
